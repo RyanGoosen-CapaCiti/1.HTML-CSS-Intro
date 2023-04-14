@@ -1,0 +1,61 @@
+The Name attribute
+<form action="/action_page.php">
+    First name:<br>
+    <input type="text" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+Grouping Form data with <fieldset>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    Text Input
+    <form>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname">
+    </form>
+
+    Radio Button Input
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </form>
+
+
+
+    form attributes
+
+    Type Description
+    <input type=”text”> Defines one line text input field
+    <input type=”radio”> Defines a radio button (for selecting one of many choices)
+    <input type=”submit”> Defines a submit button (for submitting the form)
+
+    Summary
+    This marks the end of Day 2 . Below is a summary of what we have learnt:
+
+    The HTML <form> element defines a form.
+        The <input> element can be displayed in several ways, depending on the type attribute.
+        <input type="text"> defines a one-line input field for text input:
+        <input type="radio"> defines a radio button.
+        <input type="submit"> defines a button for submitting the form data to a form-handler.
+        The action attribute defines the action to be performed when the form is submitted.
+        The target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the
+        current window.
+        The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.
+        The default method when submitting form data is GET.
+        Each input field must have a name attribute to be submitted.
+        The <fieldset> element is used to group related data in a form.
+            The <legend> element defines a caption for the <fieldset> element.

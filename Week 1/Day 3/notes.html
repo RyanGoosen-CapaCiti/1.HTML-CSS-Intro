@@ -1,0 +1,87 @@
+The <select> element:
+<select> defines a drop down list
+you use the <option> element to define the list option that can be selected
+use the size attribute to select how many shows
+
+    <select name="cars" size="3">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    </select>
+
+The <textarea> element:
+    create a text box for user to type into
+    User can resize box
+    Box text is wrapped
+
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+   </textarea> 
+
+The <button> element:
+    add a button
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button> 
+
+The <datalist> element:
+    specifies a list of pre-defined options for an <input> element
+    Users then see a drop-down list of the pre-defined options as they input data
+    
+    <form action="/action_page.php">
+        <input list="browsers">
+             <datalist id="browsers">
+                  <option value="Internet Explorer">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+         </datalist>
+   </form> 
+
+
+The autofocus attribute:
+    The autofocus attribute specifies that the input field should automatically get focus when the page loads
+    First name:<input type="text" name="fname" autofocus> 
+
+
+The formaction attribute:
+    The form attribute specifies one or more forms an <input> element belongs to
+    <form action="/action_page.php" id="form1">
+        First name: <input type="text" name="fname"><br>
+        <input type="submit" value="Submit">
+   </form>
+        Last name: <input type="text" name="lname" form="form1"> 
+
+
+    The form action attribute specifies the URL of a file that will process the input control when the form is submitted
+    <form action="/action_page.php">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit"><br>
+        <input type="submit" formaction="/action_page2.php" value="Submit as admin">
+    </form>
+
+
+The formenctype attribute:    
+    The form enctype attribute specifies how the form data should be encoded when submitted 
+    <form action="/action_page_binary.asp" method="post">
+        First name: <input type="text" name="fname"><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+   </form> 
+
+
+The formmethod attribute:
+    The formmethod attribute defines the HTTP method form-data to the action URL.
+    <form action="/action_page.php" method="get">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formmethod="post" value="Submit using POST">
+    </form> 
+
+
+The required attribute:
+    The required attribute specifies that an input field must be filled out before submitting the form.
+    Username: <input type="text" name="usrname" required>
+

@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+p, .center {
+    color: green;
+    text-align: center;
+}
+
+#para1 { 
+    text-align: right;
+    color: red; }
+
+/* This is a comment
+and it continues
+it has to be ended */
+
+body {
+    background-color: aqua;
+}

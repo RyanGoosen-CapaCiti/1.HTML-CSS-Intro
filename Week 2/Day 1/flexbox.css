@@ -1,0 +1,6 @@
+.flex-container {
+    display: flex;
+    padding: 10%;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    }

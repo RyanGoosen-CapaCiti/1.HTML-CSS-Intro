@@ -1,0 +1,9 @@
+1. Now that you have started working with Flexbox, what do you think are its main benefits?
+1. To position elements on a webpage. Being able to manipulate individual elements.
+
+2. What have you learnt about Flexbox while you have been practicing implementing a Website design?
+2. You can select individual children inside of the flexbox
+
+
+3. Is there anything extra you’d like to learn about Flexbox? How might you research this?
+3. None
